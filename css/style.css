@@ -1,0 +1,154 @@
+html {
+    background-color: white;
+    font-family: 'Archivo', sans-serif;
+}
+body {
+    margin: 0;
+    padding-top: 100px;
+}
+#contactBar {
+    top: 0;
+    background-color: #EBD94C;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+#logo {
+    display: inline-block;
+    margin-left: 361px;
+    margin-top: -100px;
+}
+#menuBar {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+.menuList {
+    margin-left: -20px;
+    margin-top: -30px;
+    height: 40px;
+    width: 150px;
+}
+#menuItems {
+    position: absolute;
+    display: none;
+}
+#contactItem {
+    border-radius: 5%;
+    position: absolute;
+    display: none;
+    background-color: #EBD94C;
+    width: 200px;
+    margin-left: 20px;
+}
+#contact {
+    border: 0;
+    background-color: #EBD94C;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    color: darkgrey;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#menu {
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    color: darkgrey;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.fas.fa-car-side {
+    line-height: 38px;
+    font-size: 38px;
+}
+p {
+    margin-left: 50px;
+}
+.txt {
+     margin-left: 50px;
+     border-bottom: solid lightgray 2px;
+}
+#proefLes {
+    margin-left: 50px;
+    height:59px;
+    width: 89%;
+    background-color: #F7C244;
+}
+#proefLesTxt {
+    margin-left: 90px;
+    line-height: 59px;
+    font-size: 30px;
+}
+iframe {
+    width: 100%;
+    margin-top: 100px;
+}
+#bestuurder {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    #tekstblokken {
+        display: flex;
+    }
+    .textBlock {
+        width: 33%;
+        display: inline-block;
+    }
+    #logo {
+        height: 160px;
+        width: 160px;
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+    #menu {
+        display: none;
+    }
+    #menuItems {
+        display: block;
+        margin-left: 260px;
+    }
+    #menuItems ul li {
+        display: inline-block;
+    }
+    #menuItems ul li button {
+        border: none;
+        background-color: white;
+        color: gray;
+        width: 150px;
+        line-height: 0px;
+    }
+    #contact {
+        display: none;
+    }
+    #contactBar {
+        height: 40px;
+        z-index: 100;
+    }
+    #contactItem {
+        display: inline-block;
+        background-color: transparent;
+        margin-left: 450px;
+        width: 100%;
+        border-radius: 0;
+    }
+    #contactItem ul li {
+        display: inline-block;
+        padding-right: 35px;
+    }
+    iframe {
+        height: 400px;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    #text2 {
+        margin-top: 20px;
+    }
+}
+
